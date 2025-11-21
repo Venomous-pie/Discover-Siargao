@@ -25,11 +25,23 @@
         </div>
 
         <div class="absolute inset-0 w-screen h-full bg-cover bg-center z-0" aria-label="Banner">
-            <video v-if="currentBannerIndex === 0" src="/Siargao.mp4" autoplay muted loop playsinline
-                class="w-full h-full object-cover"></video>
-            <div v-else :style="`background-image: url('${currentBanner}')`" class="w-full h-full bg-cover bg-center">
+
+            <video v-if="currentBannerIndex === 0 && !secondVideoPlaying" ref="video1"
+                src="https://iqabfoowgpuempfjvkct.supabase.co/storage/v1/object/sign/videos/Siargao1.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84MzgzMjliNS02OTZjLTQyZGMtOWNlNC01ODA3YTU5NGIxNGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvU2lhcmdhbzEubXA0IiwiaWF0IjoxNzYzNzQ5NDAyLCJleHAiOjE3OTUyODU0MDJ9.CW25S3k0vq2LPD0uyY7KeqtLBWlSvg9ZLBe3B4uF0do"
+                autoplay muted loop playsinline class="w-full h-full object-cover" @ended="playSecondVideo"
+                @canplay="onFirstVideoReady"></video>
+
+            <video v-if="currentBannerIndex === 0 && secondVideoPlaying" ref="video2"
+                src="https://iqabfoowgpuempfjvkct.supabase.co/storage/v1/object/sign/videos/Siargao2.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84MzgzMjliNS02OTZjLTQyZGMtOWNlNC01ODA3YTU5NGIxNGIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ2aWRlb3MvU2lhcmdhbzIubXA0IiwiaWF0IjoxNzYzNzQ5NTY4LCJleHAiOjE3OTUyODU1Njh9.ancH3ycMgAxmTi66fsiiS2HpRu-BdyoYCn3PxQ9HADw"
+                autoplay muted loop playsinline class="w-full h-full object-cover"
+                @canplay="onSecondVideoReady"></video>
+
+            <div v-if="currentBannerIndex !== 0" :style="`background-image: url('${currentBanner}')`"
+                class="w-full h-full bg-cover bg-center">
             </div>
+
         </div>
+
         <!-- Clickable images -->
         <div
             class="absolute center top-2/3 left-1/2 -translate-x-1/2 flex flex-row gap-3 md:absolute md:top-1/2.5 md:right-10 md:transform md:-translate-y-1/2 md:flex md:flex-col md:gap-4 md:bottom-auto md:left-auto md:translate-x-0 z-30">
@@ -77,9 +89,26 @@ const bannerNames = [
 
 const currentBannerIndex = ref(0)
 const currentBanner = ref(bannerImages[0])
+const secondVideoPlaying = ref(false)
+const video1 = ref(null)
+const video2 = ref(null)
 
 function setBanner(index) {
     currentBanner.value = bannerImages[index]
     currentBannerIndex.value = index
+    secondVideoPlaying.value = false
+}
+
+function playSecondVideo() {
+    secondVideoPlaying.value = true
+}
+
+function onFirstVideoReady(e) {
+    // Optionally, you can set up a timer to play the second video before the first ends for a smoother transition
+    // For now, it switches on 'ended' event
+}
+
+function onSecondVideoReady(e) {
+    // You can add effects or callbacks here if needed
 }
 </script>

@@ -6,7 +6,7 @@
       <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
       <div class="relative z-10 h-full flex flex-col justify-center items-start px-8" data-aos="fade-up" data-aos-delay="200">
         <h1 class="font-oswald text-5xl md:text-7xl text-white mb-4">Food & Dining in Siargao</h1>
-        <p class="font-inter text-lg md:text-xl text-white/90 max-w-2xl mb-6">
+        <p class="font-inter text-md md:text-xl text-white/90 max-w-2xl mb-6">
           Siargao’s food scene is laid-back, surf-inspired, and a delicious mix of local flavors and global favorites.
           From beachside BBQs to cozy cafes, there’s something for every taste and budget.
         </p>
@@ -265,7 +265,7 @@
         </div>
 
         <!-- RIGHT : Visual Feature -->
-        <div class="sticky top-24">
+        <div class="sticky top-24 m-4">
           <div class="rounded-3xl overflow-hidden shadow-xl h-screen max-h-170 w-full bg-center bg-cover"
             style="background-image: url('/Food.png');">
           </div>

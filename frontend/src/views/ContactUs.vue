@@ -1,7 +1,7 @@
 <template>
-  <main class="min-h-screen bg-gradient-to-br from-amber-50 via-white to-white font-inter">
+  <main class="min-h-screen w-screen bg-gradient-to-br from-amber-50 via-white to-white font-inter">
     <!-- Hero Section -->
-    <section class="relative pt-20 pb-12 md:pt-32 md:pb-20 px-4 sm:px-6 lg:px-8">
+    <section class="relative pt-20 mt-5 pb-12 md:pt-32 md:pb-20 px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
         <h1 class="text-4xl md:text-6xl font-bold text-amber-800 mb-4 leading-tight font-oswald">Let's Connect</h1>
         <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
@@ -12,39 +12,39 @@
     </section>
 
     <!-- Main Content -->
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
-      <div class="grid md:grid-cols-2 gap-12 lg:gap-16">
+    <section class="max-w-4xl mx-auto px-2 sm:px-4 lg:px-8 pb-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16">
         <!-- Contact Form -->
-        <div class="flex flex-col justify-start">
+        <div class="flex flex-col w-full">
           <div class="mb-8">
             <h2 class="text-2xl md:text-3xl font-bold text-amber-700 mb-2 font-oswald">Send us a message</h2>
             <div class="w-12 h-1 bg-amber-500 rounded-full"></div>
           </div>
-          <form @submit.prevent="handleSubmit" class="space-y-6">
+          <form @submit.prevent="handleSubmit" class="space-y-5">
             <div>
               <label for="name" class="block text-sm font-semibold text-gray-900 mb-2">Name</label>
               <input type="text" id="name" name="name" v-model="formData.name" placeholder="Your name"
-                class="w-full px-4 py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
+                class="w-full max-w-full py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
                 required />
             </div>
             <div>
               <label for="email" class="block text-sm font-semibold text-gray-900 mb-2">Email</label>
               <input type="email" id="email" name="email" v-model="formData.email" placeholder="you@example.com"
-                class="w-full px-4 py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
+                class="w-full max-w-full py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
                 required />
             </div>
             <div>
               <label for="subject" class="block text-sm font-semibold text-gray-900 mb-2">Subject</label>
               <input type="text" id="subject" name="subject" v-model="formData.subject"
                 placeholder="What is this about?"
-                class="w-full px-4 py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
+                class="w-full max-w-full py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
                 required />
             </div>
             <div>
               <label for="message" class="block text-sm font-semibold text-gray-900 mb-2">Message</label>
               <textarea id="message" name="message" v-model="formData.message"
                 placeholder="Tell us what's on your mind..." rows="6"
-                class="w-full px-4 py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all resize-none"
+                class="w-full max-w-full py-3 rounded-lg bg-white border border-amber-200 text-gray-900 placeholder:text-gray-400 focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all resize-none"
                 required></textarea>
             </div>
             <button type="submit"

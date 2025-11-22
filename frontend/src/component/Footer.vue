@@ -32,7 +32,7 @@
             </li>
             <li><router-link to="/food-and-dining" class="text-white hover:text-amber-400 transition-colors">Food &
                 Dining</router-link></li>
-            <li><router-link to="/map" class="text-white hover:text-amber-400 transition-colors">Map &
+            <li><router-link to="/map-and-direction" class="text-white hover:text-amber-400 transition-colors">Map &
                 Directions</router-link>
             </li>
           </ul>

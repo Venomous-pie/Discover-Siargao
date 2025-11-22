@@ -3,7 +3,7 @@
     <div class="w-full">
 
       <!-- HERO INTRO -->
-      <div class="relative mb-28">
+      <div class="relative mb-8">
 
         <!-- Background Image -->
         <div class="absolute inset-0">

@@ -1,8 +1,8 @@
 <template>
-  <section class="relative min-h-screen bg-white overflow-hidden">
+  <section class="relative min-h-screen bg-white overflow-hidden mt-24">
     <!-- Visual band -->
     <div class="relative h-[60vh]">
-      <img src="/Cloud9.jpg" alt="Siargao shoreline" class="absolute inset-0 w-full h-full object-cover" />
+      <img src="/Guyam.jpg" alt="Siargao shoreline" class="absolute inset-0 w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
 
       <div class="relative z-10 h-full flex items-center">

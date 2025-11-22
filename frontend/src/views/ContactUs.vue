@@ -1,7 +1,7 @@
 <template>
   <main class="min-h-screen w-screen bg-gradient-to-br from-amber-50 via-white to-white font-inter">
     <!-- Hero Section -->
-    <section class="relative pt-20 mt-5 pb-12 md:pt-32 md:pb-20 px-4 sm:px-6 lg:px-8">
+    <section class="relative pt-20 mt-5 pb-12 md:pt-32 md:pb-20 px-4 sm:px-6 lg:px-8" data-aos="fade-up">
       <div class="max-w-4xl mx-auto text-center">
         <h1 class="text-4xl md:text-6xl font-bold text-amber-800 mb-4 leading-tight font-oswald">Let's Connect</h1>
         <p class="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
@@ -12,10 +12,10 @@
     </section>
 
     <!-- Main Content -->
-    <section class="max-w-4xl mx-auto px-2 sm:px-4 lg:px-8 pb-20">
+    <section class="max-w-4xl mx-auto px-2 sm:px-4 lg:px-8 pb-20" data-aos="fade-up" data-aos-delay="100">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16">
         <!-- Contact Form -->
-        <div class="flex flex-col w-full">
+        <div class="flex flex-col w-full" data-aos="fade-right" data-aos-delay="200">
           <div class="mb-8">
             <h2 class="text-2xl md:text-3xl font-bold text-amber-700 mb-2 font-oswald">Send us a message</h2>
             <div class="w-12 h-1 bg-amber-500 rounded-full"></div>
@@ -55,7 +55,7 @@
         </div>
 
         <!-- Contact Information -->
-        <div class="space-y-8">
+        <div class="space-y-8" data-aos="fade-left" data-aos-delay="200">
           <div>
             <div class="mb-8">
               <h2 class="text-2xl md:text-3xl font-bold text-amber-800 mb-2 font-oswald">Get in touch</h2>

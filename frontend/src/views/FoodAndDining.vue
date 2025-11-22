@@ -1,10 +1,10 @@
 <template>
-  <section class="min-h-screen bg-white mt-24">
+  <section class="min-h-screen bg-white mt-24" data-aos="fade-up">
     <!-- Hero / Intro Section -->
-    <div class="relative h-[50vh] w-full mb-12">
+    <div class="relative h-[50vh] w-full mb-12" data-aos="fade-up" data-aos-delay="100">
       <img src="/Food.png" alt="Siargao Food Banner" class="absolute inset-0 w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
-      <div class="relative z-10 h-full flex flex-col justify-center items-start px-8">
+      <div class="relative z-10 h-full flex flex-col justify-center items-start px-8" data-aos="fade-up" data-aos-delay="200">
         <h1 class="font-oswald text-5xl md:text-7xl text-white mb-4">Food & Dining in Siargao</h1>
         <p class="font-inter text-lg md:text-xl text-white/90 max-w-2xl mb-6">
           Siargao’s food scene is laid-back, surf-inspired, and a delicious mix of local flavors and global favorites.
@@ -19,7 +19,7 @@
     </div>
 
     <!-- Dining Categories -->
-    <div class="max-w-6xl mx-auto mb-12">
+    <div class="max-w-6xl mx-auto mb-12" data-aos="fade-up" data-aos-delay="200">
       <nav class="flex flex-wrap gap-4 justify-center mb-8">
         <span class="px-6 py-2 rounded-full bg-amber-100 text-amber-700 font-oswald cursor-pointer">Local /
           Filipino</span>
@@ -35,7 +35,7 @@
       </nav>
 
       <!-- Featured Restaurants Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10" data-aos="fade-up" data-aos-delay="300">
         <!-- Kermit Siargao -->
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
           <img src="/kermit.jpeg" alt="Kermit Siargao" class="h-40 w-full object-cover" />
@@ -207,7 +207,7 @@
     <!-- Local Eats / Hidden Gems -->
     <div class="max-w-6xl mx-auto px-4 my-16">
       <h2 class="font-oswald text-3xl text-amber-700 mb-4">Local Eats & Hidden Gems</h2>
-      <div class="grid md:grid-cols-2 gap-8">
+      <div class="grid md:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay="350">
         <div class="bg-amber-50 rounded-2xl p-6 shadow flex flex-col">
           <h3 class="font-oswald text-xl text-amber-800 mb-2">Karinderyas & Street Food</h3>
           <p class="font-inter text-base text-gray-700 mb-2">Try local favorites like barbecue, lechon, and pancit at
@@ -221,7 +221,7 @@
       </div>
     </div>
 
-    <div class="max-w-7xl mx-auto mb-8">
+    <div class="max-w-7xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="400">
       <div class="grid lg:grid-cols-2 gap-16 items-start">
 
         <!-- LEFT : Content -->

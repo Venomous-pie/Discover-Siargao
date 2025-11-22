@@ -1,12 +1,12 @@
 <template>
-  <section class="relative min-h-screen bg-white overflow-hidden mt-24">
+  <section class="relative min-h-screen bg-white overflow-hidden mt-24" data-aos="fade-up">
     <!-- Visual band -->
-    <div class="relative h-[60vh]">
+    <div class="relative h-[60vh]" data-aos="fade-up" data-aos-delay="100">
       <img src="/Guyam.jpg" alt="Siargao shoreline" class="absolute inset-0 w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
 
-      <div class="relative z-10 h-full flex items-center">
-        <div class="max-w-4xl px-8">
+      <div class="relative z-10 h-full flex items-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="max-w-4xl px-8" data-aos="fade-up" data-aos-delay="300">
           <h1 class="font-oswald text-5xl md:text-7xl text-white mb-4">What This Site Is About</h1>
           <p class="font-inter text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
             Discover Siargao is your local-first guide to the island—built for travelers who want real insight, not just
@@ -18,8 +18,8 @@
     </div>
 
     <!-- Main content -->
-    <div class="max-w-6xl mx-auto px-8 py-20">
-      <div class="grid md:grid-cols-3 gap-12">
+    <div class="max-w-6xl mx-auto px-8 py-20" data-aos="fade-up" data-aos-delay="200">
+      <div class="grid md:grid-cols-3 gap-12" data-aos="fade-up" data-aos-delay="300">
         <div class="md:col-span-2">
           <h2 class="font-oswald text-3xl text-amber-700 mb-6">A Different Kind of Guide</h2>
           <p class="font-inter text-lg font-light leading-relaxed mb-6">
@@ -41,7 +41,7 @@
         </div>
 
         <!-- Philosophy Panel -->
-        <div class="bg-amber-50 rounded-2xl p-8 shadow-md">
+        <div class="bg-amber-50 rounded-2xl p-8 shadow-md" data-aos="fade-left" data-aos-delay="400">
           <h3 class="font-oswald text-2xl text-amber-800 mb-4">Core Principles</h3>
           <ul class="font-inter text-base space-y-3 leading-relaxed">
             <li>Mindful tourism over mass consumption</li>
@@ -53,7 +53,7 @@
       </div>
 
       <!-- Closing Statement -->
-      <div class="mt-20 max-w-3xl">
+      <div class="mt-20 max-w-3xl" data-aos="fade-up" data-aos-delay="400">
         <h2 class="font-oswald text-3xl text-amber-700 mb-6">Why This Matters</h2>
         <p class="font-inter text-lg font-light leading-relaxed mb-8">
           Siargao is a living island—home to families, workers, and nature that needs care. We built this site to help

@@ -1,9 +1,9 @@
 <template>
-  <section class="min-h-screen bg-gradient-to-b from-amber-50 via-white to-white py-20">
+  <section class="min-h-screen bg-gradient-to-b from-amber-50 via-white to-white py-20" data-aos="fade-up">
     <div class="w-full">
 
       <!-- HERO INTRO -->
-      <div class="relative mb-8">
+      <div class="relative mb-8" data-aos="fade-up" data-aos-delay="100">
 
         <!-- Background Image -->
         <div class="absolute inset-0">
@@ -12,9 +12,9 @@
         </div>
 
         <!-- Content -->
-        <div class="relative z-10 max-w-7xl mx-auto px-6 py-28 lg:py-36 grid lg:grid-cols-2 gap-10 items-center">
+        <div class="relative z-10 max-w-7xl mx-auto px-6 py-28 lg:py-36 grid lg:grid-cols-2 gap-10 items-center" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="text-white">
+          <div class="text-white" data-aos="fade-right" data-aos-delay="250">
             <span class="uppercase tracking-widest text-amber-400 font-semibold text-sm">Siargao Guide</span>
             <h1 class="font-oswald text-5xl md:text-6xl mt-4 mb-6 leading-tight">
               Discover the Soul<br class="hidden sm:block" /> of Siargao
@@ -26,7 +26,7 @@
           </div>
 
           <!-- Floating Highlight Card -->
-          <div class="hidden lg:block">
+          <div class="hidden lg:block" data-aos="fade-left" data-aos-delay="250">
             <div class="bg-white/10 backdrop-blur-2sm rounded-3xl p-6 shadow-2xl max-w-sm ml-auto">
               <h3 class="font-oswald text-2xl text-white mb-2">Cloud 9</h3>
               <p class="text-white text-sm leading-relaxed">
@@ -39,7 +39,7 @@
       </div>
 
       <!-- CATEGORY FILTER -->
-      <div class="flex flex-wrap gap-4 mb-14 justify-center">
+      <div class="flex flex-wrap gap-4 mb-14 justify-center" data-aos="fade-up" data-aos-delay="300">
         <button v-for="cat in categories" :key="cat" @click="activeCategory = cat"
           :class="activeCategory === cat ? 'bg-amber-600 text-white' : 'bg-white text-gray-700'"
           class="px-6 py-2 rounded-full font-medium shadow-sm border hover:bg-amber-50 transition">
@@ -48,7 +48,7 @@
       </div>
 
       <!-- ATTRACTIONS GRID -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mx-8" data-aos="fade-up" data-aos-delay="400">
         <div v-for="spot in filteredSpots" :key="spot.title"
           class="group relative rounded-2xl overflow-hidden shadow-xl">
           <img :src="spot.image" :alt="spot.title"

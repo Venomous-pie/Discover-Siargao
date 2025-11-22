@@ -1,6 +1,6 @@
 <template>
-  <section class="min-h-screen bg-white outline outline-1 outline-amber-500 py-16 px-4">
-    <div class="max-w-6xl mx-auto">
+  <section class="min-h-screen mt-8 bg-white outline outline-1 outline-amber-500 py-16 px-4" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto" data-aos="fade-up" data-aos-delay="100">
       <h1 class="font-oswald text-5xl md:text-6xl text-amber-700 mb-8">Things To Do in Siargao</h1>
       <p class="font-inter text-lg md:text-xl text-gray-700 mb-12 max-w-3xl">
         Siargao offers more than just world-class surfing. Here, you’ll find activities that connect you to the island’s
@@ -8,7 +8,7 @@
         discover the real Siargao.
       </p>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10" data-aos="fade-up" data-aos-delay="200">
         <!-- Surfing -->
         <div class="bg-white outline outline-1 outline-amber-500 rounded-2xl p-8 shadow-md flex flex-col">
           <h2 class="font-oswald text-2xl text-amber-800 mb-3">Surfing</h2>

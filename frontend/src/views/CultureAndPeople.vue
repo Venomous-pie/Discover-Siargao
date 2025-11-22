@@ -1,8 +1,7 @@
 <template>
   <div class="m-0">
     <!-- Hero Section -->
-    <section class="relative h-72 md:h-96 flex items-center justify-center bg-cover bg-center rounded-b-3xl shadow-lg"
-      style="background-image: url('/public/Siargao.jpg');">
+    <section class="relative h-72 md:h-96 flex items-center justify-center bg-cover bg-center rounded-b-3xl shadow-lg" style="background-image: url('/public/Siargao.jpg');" data-aos="fade-up" data-aos-delay="100">
       <div class="absolute inset-0 bg-black bg-opacity-40 rounded-b-3xl"></div>
       <div class="relative z-10 text-center w-full px-4">
         <h1 class="font-oswald underline text-white text-3xl md:text-6xl drop-shadow-lg">Siargao Culture & People</h1>
@@ -13,18 +12,18 @@
     </section>
 
     <!-- Main Content Container -->
-    <div class="max-w-7xl mx-auto px-4 md:px-8">
+    <div class="max-w-7xl mx-auto px-4 md:px-8" data-aos="fade-up" data-aos-delay="200">
       <!-- Two Column Layout -->
-      <div class="flex flex-col md:flex-row gap-8 mt-12">
+      <div class="flex flex-col md:flex-row gap-8 mt-12" data-aos="fade-up" data-aos-delay="250">
         <!-- Left Column - Main Content -->
-        <div class="flex-1">
+        <div class="flex-1" data-aos="fade-right" data-aos-delay="300">
           <h2 class="text-3xl font-oswald">A Sea‑Shaped Culture</h2>
           <p class="mt-4 font-inter text-md">Siargao's communities are intertwined with the ocean: fishing,
             boat-building and coastal harvests shape daily life. Hospitality is genuine and communal ties are strong —
             visitors may find themselves welcomed to local gatherings and shared meals.</p>
 
           <h3 class="mt-6 text-2xl font-oswald">Customs & Values</h3>
-          <ul class="list-disc ml-6 mt-3 font-inter text-md space-y-2">
+          <ul class="list-disc ml-6 mt-3 font-inter text-md space-y-2" data-aos="fade-up" data-aos-delay="350">
             <li>Communal cooperation during festivals, harvests, and family events.</li>
             <li>Respect for elders and strong family connections influence local decisions.</li>
             <li>Religious and seasonal rites often blend with indigenous practices.</li>
@@ -41,7 +40,7 @@
         </div>
 
         <!-- Right Column - Sidebar -->
-        <aside class="w-full md:w-96">
+        <aside class="w-full md:w-96 flex flex-col gap-6" data-aos="fade-left" data-aos-delay="350">
           <div class="rounded-lg overflow-hidden shadow-lg">
             <img src="/IslandHopping.jpg" alt="Siargao culture" class="w-full h-64 object-cover" />
           </div>
@@ -59,7 +58,7 @@
       </div>
 
       <!-- Experience Local Life Section -->
-      <section class="mt-16">
+      <section class="mt-16" data-aos="fade-up" data-aos-delay="300">
         <h2 class="text-3xl font-oswald mb-6 text-center">How to Experience Local Life</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="p-6 border rounded-xl shadow-md bg-white flex flex-col items-center text-center">
@@ -81,7 +80,7 @@
       </section>
 
       <!-- Visitor Etiquette Section -->
-      <section class="mt-16 mb-16">
+      <section class="mt-16 mb-16" data-aos="fade-up" data-aos-delay="350">
         <div class="bg-yellow-50 border-l-4 border-amber-700 p-6 rounded-xl shadow-sm">
           <h2 class="text-3xl font-oswald mb-3">Visitor Etiquette</h2>
           <ul class="list-disc ml-6 font-inter text-md space-y-1">

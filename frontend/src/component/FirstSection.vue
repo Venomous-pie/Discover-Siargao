@@ -1,16 +1,5 @@
 <template>
-    <div class="absolute top-200 md:top-180 z-30 md:left-1/4 m-8">
-        <div class="flex justify-center items-center gap-4">
-            <i data-aos="fade-right" class="i-lucide-arrow-right block text-black w-6 h-6 md:w-12 md:h-12"></i>
-            <h1 data-aos="fade-up" class="font-oswald underline text-md text-center md:min-w-xl md:text-6xl">What makes
-                Siargao Special</h1>
-            <i data-aos="fade-left" class="i-lucide-arrow-left block text-black w-6 h-6 md:w-12 md:h-12"></i>
-        </div>
-        <h6 class="font-italic font-light text-sm font-inter text-center mt-0">Discover why this island paradise has
-            become
-            the surfing capital of Asia and the ultimate escape.</h6>
-    </div>
-    <div class="mx-8 my-16">
+    <div class="mx-8 mb-16">
         <div class="grid gap-8 md:grid-cols-3">
             <!-- Column 1: Surf Culture -->
             <div data-aos="fade-right"

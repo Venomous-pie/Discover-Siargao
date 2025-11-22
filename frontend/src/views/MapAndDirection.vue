@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 mt-24">
+  <div class="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 mt-24" data-aos="fade-up">
     <!-- Decorative background elements -->
     <div class="fixed inset-0 overflow-hidden pointer-events-none opacity-10">
       <div class="absolute top-20 right-10 w-32 h-32 text-amber-500 animate-pulse">
@@ -13,7 +13,7 @@
     <div class="relative pt-16 pb-20 px-4">
       <div class="max-w-7xl mx-auto">
         <!-- Header Section -->
-        <div class="relative mb-10 rounded-3xl overflow-hidden shadow-lg animate-fade-in">
+        <div class="relative mb-10 rounded-3xl overflow-hidden shadow-lg animate-fade-in" data-aos="fade-up" data-aos-delay="100">
           <img src="/Cloud9.jpg" alt="Siargao Map Banner"
             class="absolute inset-0 w-full h-full object-cover object-center opacity-80"
             style="min-height: 180px; max-height: 260px;" />
@@ -29,9 +29,9 @@
         </div>
 
         <!-- Main Content Grid -->
-        <div class="grid lg:grid-cols-3 gap-6 mb-10">
+        <div class="grid lg:grid-cols-3 gap-6 mb-10" data-aos="fade-up" data-aos-delay="200">
           <!-- Map Section - Takes up 2 columns -->
-          <div class="lg:col-span-2">
+          <div class="lg:col-span-2" data-aos="fade-right" data-aos-delay="250">
             <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300">
               <div class="bg-gradient-to-r from-amber-600 to-orange-600 px-4 py-2">
                 <div class="flex items-center gap-2">
@@ -47,7 +47,7 @@
           </div>
 
           <!-- Directions Form -->
-          <div class="lg:col-span-1">
+          <div class="lg:col-span-1" data-aos="fade-left" data-aos-delay="250">
             <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 lg:sticky lg:top-4">
               <div class="bg-gradient-to-r from-amber-600 to-orange-600 px-4 py-2">
                 <div class="flex items-center gap-2">
@@ -101,7 +101,7 @@
 
         <!-- Popular Points of Interest -->
         <div>
-          <div class="text-center mb-6">
+          <div class="text-center mb-6" data-aos="fade-up" data-aos-delay="300">
             <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2 font-oswald">
               Popular Destinations
             </h2>
@@ -110,7 +110,7 @@
             </p>
           </div>
 
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="350">
             <div v-for="(place, index) in places" :key="place.name" @click="selectPlace(place)" :class="[
               'bg-white rounded-xl p-4 shadow hover:shadow-md transition-all duration-200 cursor-pointer border',
               selectedPlace === place.name ? 'border-amber-500 ring-1 ring-amber-200' : 'border-gray-100'

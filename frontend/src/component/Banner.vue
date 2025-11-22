@@ -39,7 +39,6 @@
             <div v-if="currentBannerIndex !== 0" :style="`background-image: url('${currentBanner}')`"
                 class="w-full h-full bg-cover bg-center">
             </div>
-
         </div>
 
         <!-- Clickable images -->
@@ -62,6 +61,20 @@
                     'hover:border-amber-500'
                 ]" :alt="bannerNames[idx]" :title="bannerNames[idx]" />
             </template>
+        </div>
+
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full flex flex-col items-center z-30">
+            <div class="flex justify-center items-center gap-4">
+                <i data-aos="fade-right" class="i-lucide-arrow-right block text-black w-6 h-6 md:w-12 md:h-12"></i>
+                <h1 data-aos="fade-up" class="z-20 font-oswald underline text-md text-center md:min-w-xl md:text-6xl">
+                    What makes
+                    Siargao Special</h1>
+                <i data-aos="fade-left" class="i-lucide-arrow-left block text-black w-6 h-6 md:w-12 md:h-12"></i>
+            </div>
+            <h6 class="font-italic font-light text-sm font-inter text-center mt-0">Discover why this island paradise
+                has
+                become
+                the surfing capital of Asia and the ultimate escape.</h6>
         </div>
 
         <div class="absolute bottom-0 w-full bg-cover bg-bottom bg-no-repeat brightness-50 z-10 invert"

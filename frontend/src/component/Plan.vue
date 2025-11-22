@@ -13,7 +13,7 @@
             </p>
 
             <div class="mt-10">
-                <router-link to="/map"
+                <router-link to="/map-and-direction"
                     class="inline-flex gap-3 items-center px-10 py-4 text-lg font-bold rounded-xl bg-white text-[#10B981] shadow-2xl hover:bg-gray-100 transition transform hover:scale-[1.05] active:scale-[0.98] duration-200 uppercase font-oswald">
                     Plan My Dream Trip Now
                     <i class="i-lucide-arrow-right block w-5 h-5"></i>

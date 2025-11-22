@@ -14,7 +14,7 @@
         <div class="grid gap-8 md:grid-cols-3">
             <!-- Column 1: Surf Culture -->
             <div data-aos="fade-right"
-                class="bg-white rounded-2xl shadow-lg flex flex-col items-center text-center outline outline-1 outline-amber-700">
+                class="bg-white rounded-2xl shadow-lg flex flex-col items-center text-center outline outline-1 outline-amber-500">
                 <span class="absolute top-1/4 z-10 i-lucide-waves text-5xl text-white mb-4"></span>
                 <div class="relative rounded-xl overflow-hidden w-full h-100 bg-cover bg-center bg-no-repeat"
                     style="background-image: url('https://cdn.sanity.io/images/we0tdimr/production/4312803662077b6566b623767a10c7660da79277-3840x2560.jpg?rect=0,200,3840,2160&w=1920&h=1080&q=70&auto=format');">
@@ -32,7 +32,7 @@
             </div>
             <!-- Column 2: Natural Wonders -->
             <div data-aos="fade-up"
-                class="bg-white rounded-2xl shadow-lg flex flex-col items-center text-center outline outline-1 outline-amber-700">
+                class="bg-white rounded-2xl shadow-lg flex flex-col items-center text-center outline outline-1 outline-amber-500">
                 <span class="absolute top-1/4 z-10 i-lucide-ship text-5xl text-white mb-4"></span>
                 <div class="relative rounded-xl overflow-hidden w-full h-100 bg-cover bg-center bg-no-repeat"
                     style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/8f/e0/8d/mam-on-island.jpg?w=1200&h=1200&s=1');">
@@ -47,7 +47,7 @@
             </div>
             <!-- Column 3: Lifestyle/Vibe -->
             <div data-aos="fade-left"
-                class="bg-white rounded-2xl shadow-lg flex flex-col items-center text-center outline outline-1 outline-amber-700">
+                class="bg-white rounded-2xl shadow-lg flex flex-col items-center text-center outline outline-1 outline-amber-500">
                 <span class="absolute top-1/4 z-10 i-lucide-sun text-5xl text-white mb-4"></span>
                 <div class="relative rounded-xl overflow-hidden w-full h-100 bg-cover bg-center bg-no-repeat"
                     style="background-image: url('https://thefroggyadventures.com/wp-content/uploads/2024/10/shakabrah-siargao-beachfront.jpg');">

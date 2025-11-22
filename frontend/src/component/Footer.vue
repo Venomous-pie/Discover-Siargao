@@ -30,7 +30,7 @@
             <li><router-link to="/culture" class="text-white hover:text-amber-400 transition-colors">Culture &
                 People</router-link>
             </li>
-            <li><router-link to="/food" class="text-white hover:text-amber-400 transition-colors">Food &
+            <li><router-link to="/food-and-dining" class="text-white hover:text-amber-400 transition-colors">Food &
                 Dining</router-link></li>
             <li><router-link to="/map" class="text-white hover:text-amber-400 transition-colors">Map &
                 Directions</router-link>
